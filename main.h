@@ -22,8 +22,7 @@ void print_buffer(char buffer[], int *buff_ind);
  *    * @fmt: The format.
  *     * @fn: The function associated.
  *      */
-stru:q
-ct fmt
+struct fmt
 {
 	        char fmt;
 		        int (*fn)(va_list, char[], int, int, int, int);
