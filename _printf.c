@@ -1,4 +1,4 @@
-nclude "main.h"
+#include "main.h"
 /**
  * _printf - function producing output as per format
  * @format: format specified
@@ -31,7 +31,7 @@ int _printf(const char *format, ...)
 			precision = get_precision(format, &v, list);
 			size = get_size(format, &v);
 			++v;
-			printed = handle_print(format, &v, list, buffer, flags, width, precision, size)
+			printed = handle_print(format, &v, list, buffer, flags, width, precision, size);
 				if (printed == -1)
 					return (-1);
 			printed_chars += printed;

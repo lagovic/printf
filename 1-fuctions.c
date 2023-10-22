@@ -147,7 +147,7 @@ int print_rot13string(va_list types, char buffer[],
 	UNUSED(buffer);
 	UNUSED(flags);
 	UNUSED(precision);
-	UNUSED(precision);
+	UNUSED(width);
 	UNUSED(size);
 	
 	if (str == NULL)
